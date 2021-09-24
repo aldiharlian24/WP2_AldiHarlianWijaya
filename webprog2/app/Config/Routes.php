@@ -34,6 +34,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/aldi', 'Aldi::index');
 $routes->get('/latihan', 'latihan::index');
+$routes->get('/coba', 'Coba::index');
 
 
 
